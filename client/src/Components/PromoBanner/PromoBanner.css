@@ -1,0 +1,107 @@
+/* PromoBanner.css */
+.promo-banner {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.top-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.icon-item {
+  text-align: center;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #d32f2f;
+  margin-bottom: 10px;
+}
+
+.divider {
+  height: 50px;
+  width: 1px;
+  background: #ddd;
+}
+
+.main-banner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.banner-left,
+.banner-right {
+  position: relative;
+  width: 48%;
+  background-color: #f7f7f7;
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 500px;
+}
+
+.banner-left {
+  background-image: url('../.././../public/PromoBanner3.png');
+}
+
+.banner-right {
+  background-image: url('../.././../public/PromoBanner4.png');
+}
+
+h3 {
+  color: #d32f2f;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 span {
+  display: block;
+  color: #d32f2f;
+}
+
+.badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #d32f2f;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border-radius: 20px;
+}
+
+.browse-btn,
+.grab-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.browse-btn {
+  background-color: #d32f2f;
+  color: #fff;
+}
+
+.grab-btn {
+  background-color: #f5b942;
+}
+
+.browse-btn:hover,
+.grab-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
